@@ -1,5 +1,5 @@
 #lang racket
-;; Attempt at defining elementray set operations using Racket (and some help from StackOverflow...)
+;; Attempt at defining elementary set operations using Racket (and some help from StackOverflow...)
 
 ;; Define a procedure for set membership: x e s OR x c s (since equal? can apply to atoms or lists)
 (define (isMemberOf x set)
